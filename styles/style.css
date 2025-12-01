@@ -1,0 +1,52 @@
+body {
+  padding-top: 100px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.left_side {
+  min-width: 220px;
+  max-width: 220px;
+  margin-right: 50px;
+}
+
+.right_side .card {
+  width: 250px;
+  margin: 0 15px;
+}
+
+.right_side .card img {
+  width: 100%;
+}
+
+.right_side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 33px;
+}
+
+.right_side .card:first-child {
+  display: none;
+}
